@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@300&display=swap');
+
+*{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    max-width: 100%;
+    background-color: #FFC107;
+    
+}
+header img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    background-color: #FFC107;
+    
+}
+
+nav {
+    background:#FFA000;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    background:#FFA000;
+    list-style: none;
+    
+    
+    
+}
+nav ul li{
+        padding: 2px 35px;
+        background-color: #FFA000;
+        
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FDFDFD;
+    background-color: #FFA000;
+   
+    
+}
+
+main{
+    margin-left: 120px;
+    width: 400px;
+    display: inline-block;
+  
+    
+    
+}
+.titulo{
+    width: 462px;
+    height: 61px;
+    margin-top: 30px;
+    color: #FFC107;
+    font-weight: bold;
+}
+main .container-abobora img{
+    margin-top: 20px;
+
+}
+
+
+.container-abobora{
+    padding: 20px 0;
+}
+span{
+    margin-left: 30px;
+   padding: 8px;
+   border: 1px solid  #176902;
+   border-radius: 10px;
+  align-items: center;
+  color: #176902;
+  transition: 0.8s;
+  
+}
+span:hover{
+    background-color: #FFA000;
+    color: white;
+    border: none;
+    transition: 0.8s;
+}
+
+.ingredientes{
+    margin-top: 65px;
+    margin-bottom: 60px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.video{
+    margin: 20px 0px;
+}
+
+article p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+article  h3{
+    margin-top: 30px;
+}
+
+    
+
+
+
+
+
+
+aside{
+float: right;
+margin-top: 200px;
+margin-right: 190px;
+
+}
+
+aside h2{
+    color: #FFC107;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cardrelacionados{
+    margin-top: 90px;
+    width: 345px;
+    height: 400px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.322);
+    
+}
+
+.cardrelacionados p{
+    display: flex;
+    font-size: 26px ;
+    justify-content: center;
+    margin-top: 15px;
+    
+    
+    
+}
+
+footer{
+    display: flex;
+    margin-top: 166px;
+    max-width: 100%;
+    background-color: #FFC107;
+    flex-direction: row;
+    
+    
+}
+
+footer img{
+    display: flex;
+    background-color: #FFC107;
+}
+
+footer span{
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    margin-top: 26px;
+    
+    
+
+}
+footer span:hover{
+    background-color: #FFC107;
+}
