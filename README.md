@@ -4,6 +4,9 @@
   
   <h2> FOTOS<h2>
    <img src="./assets/leanding1.png">
-    <br>
+   <img src="./assets/leading03.png">
+   <img src="./assets/leading02.png">
+   <img src="./assets/leading04.png">
+    
  
     
